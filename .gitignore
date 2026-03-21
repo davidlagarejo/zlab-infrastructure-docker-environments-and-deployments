@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# Data / models / outputs
+data/
+datasets/
+models/
+checkpoints/
+artifacts/
+outputs/
+reports/rendered/
+runs/
+
+# Secrets
+secrets/
+*.pem
+*.key
+*.crt
+
+# Build
+build/
+dist/
+*.egg-info/
