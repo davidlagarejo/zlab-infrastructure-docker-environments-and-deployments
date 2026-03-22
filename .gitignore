@@ -7,7 +7,7 @@ __pycache__/
 venv/
 .env
 .env.*
-.python-version
+# .python-version  # commiteado para reproducibilidad con uv
 
 # Jupyter
 .ipynb_checkpoints/
