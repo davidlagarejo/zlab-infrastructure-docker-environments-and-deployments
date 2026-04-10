@@ -1,28 +1,20 @@
 # ZLab Infrastructure
 
-Setup, bootstrap, configuración no sensible, templates e instrucciones del entorno ZLab.
+Scripts, templates, and setup guides for the ZLab development environment.
 
-## Contenido
+This repo documents how the ZLab workspace is set up — from Python environments to deployment configs — so it can be reproduced cleanly on any machine.
 
-| Carpeta | Propósito |
-|---|---|
-| `bootstrap/` | Scripts de instalación y configuración inicial del entorno |
-| `scripts/` | Utilidades operativas del lab |
-| `configs/` | Configuraciones de herramientas (no sensibles) |
-| `docs/` | Documentación técnica del entorno |
-| `templates/` | Templates reutilizables (.gitignore, pyproject.toml, etc.) |
+## What it contains
 
-## Política de contenido
+- Environment setup scripts
+- Reusable configuration templates
+- Documentation of how the lab is structured
+- Bootstrap tools for new projects
 
-- ✅ Scripts de setup y automatización
-- ✅ Configuraciones no sensibles
-- ✅ Documentación de infraestructura
-- ❌ Secretos, tokens, API keys
-- ❌ Datasets, modelos, outputs pesados
-- ❌ Variables de entorno reales (`.env`)
+## What it does not contain
 
-## Entorno
+No API keys, passwords, personal data, or production secrets. Only setup logic and documentation that is safe to share publicly.
 
-- Python de trabajo: `python3.12` (via Homebrew)
-- Gestor de entornos: `uv`
-- Rama principal: `main`
+## Tech used
+
+Shell scripts · Python · Docker · Git
