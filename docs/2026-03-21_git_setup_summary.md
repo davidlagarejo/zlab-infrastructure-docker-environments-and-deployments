@@ -20,7 +20,7 @@
 
 ```
 user.name  = David Lagarejo
-user.email = davidlagarejo@gmail.com
+user.email = [configured locally]
 init.defaultBranch = main
 ```
 
