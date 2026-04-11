@@ -19,7 +19,7 @@
 ## Configuración Git global aplicada
 
 ```
-user.name  = David Lagarejo
+user.name  = [configured locally]
 user.email = [configured locally]
 init.defaultBranch = main
 ```
